@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Block (Parent) */
+.card {
+    margin: 2em;
+    max-width: 300px;
+    padding: 2em;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, .95);
+    text-align: center;
+
+    // Element (Child) <img> tag
+    &__image {
+        width: 250px;
+        padding: 5px;
+        border-radius: 4px;
+    }
+
+    // Element (Child) <h2> tag
+    &__title {
+        font-weight: bold;
+    }
+
+    // Element (Child) <p> tag
+    &__body {
+        opacity: .7;
+    }
+
+    // Modifier
+    &--light {
+        background-color: #eee;
+    }
+
+    // Modifier
+    &--dark {
+        background-color: #333;
+        color: white;
+    }
+
+    // Modifier
+    &--flourescent{
+        background-color: rgba(244, 86, 20, 1);
+        color: white;
+    }
+}

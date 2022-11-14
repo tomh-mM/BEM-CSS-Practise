@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Block (Parent) */
+.card {
+  margin: 2em;
+  max-width: 300px;
+  padding: 2em;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.95);
+  text-align: center;
+}
+.card__image {
+  width: 250px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.card__title {
+  font-weight: bold;
+}
+.card__body {
+  opacity: 0.7;
+}
+.card--light {
+  background-color: #eee;
+}
+.card--dark {
+  background-color: #333;
+  color: white;
+}
+.card--flourescent {
+  background-color: rgb(244, 86, 20);
+  color: white;
+}
+
+/*# sourceMappingURL=styles.css.map */
